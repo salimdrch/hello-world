@@ -8,7 +8,7 @@
     "build:prod": "ng build --configuration production --base-href https://dilvy-anais.github.io/hello-world/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test-integration":"ng test --watch=false --browsers=ChromeHeadless"
+    "test-headless":"ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
